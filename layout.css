@@ -1,0 +1,325 @@
+body {
+	margin: 0;
+}
+
+section {
+	overflow: hidden;
+}
+
+p:section3 color: blue;
+  text-decoration: underline;
+}
+
+.underline:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+p, h1, h3 {
+	margin: 0;
+}
+
+header {
+  padding-top: 25px;
+}
+
+p.opener{
+  text-align: justify;
+  text-indent: 50px;
+  padding: 20px;
+  width: 450px;
+  font-size: 24px;
+}
+
+tips{
+  margin: center;
+}
+
+li.section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+h1 {
+  color: white;
+  text-indent: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+}
+
+.darkcyan{
+  background: darkcyan;
+}
+
+.center {
+	text-align: center;
+}
+
+.icon-center {
+	display: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+inheritiner {
+	margin: autononeax-width: 960px;
+  width: 100%;
+}
+
+.works { /*padding only*/
+  padding-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+.nav {
+	width: 100%;
+	background: lightblue;
+	position: fixed;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.ulmenu {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	color: white;
+}
+
+.ulmenu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+  font-size: 20;
+}
+
+.menu {
+	width: 600px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  float: right;
+}
+
+
+.toggle {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+.logo {
+		width: 100px; 
+		padding-top: 15px;
+		margin-bottom: -45px;
+		margin-left: 30px;
+	}
+
+@media (max-width: 850px) {
+	.toggle {
+		display: block;
+	}
+
+  .ulmenu {
+		width: 100%;
+		display: none;
+	}
+
+	.ulmenu li {
+		display: block;
+		text-align: left;
+		width: 300px;
+	}
+
+  .active {
+		display: block;
+	}
+
+  .logo {
+		width: 100px; 
+		padding-top: 10px;
+		margin-bottom: 15px;
+		margin-left: 30px;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+section {
+	overflow: hidden;
+}
+
+p, h1, h3 {
+	margin: 0;
+}
+
+header {
+  padding-top: 25px;
+}
+
+p.opener{
+  text-align: justify;
+  text-indent: 50px;
+  padding: 20px;
+  width: 450px;
+  font-size: 24px;
+}
+
+tips{
+  margin: center;
+}
+
+li.section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+h1 {
+  color: white;
+  text-indent: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+}
+
+.darkcyan{
+  background: darkcyan;
+}
+
+.center {
+	text-align: center;
+}
+
+.icon-center {
+	display: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	max-width: 960px;
+  width: 100%;
+}
+
+.works { /*padding only*/
+  padding-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+.nav {
+	width: 100%;
+	background: lightblue;
+	position: fixed;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.ulmenu {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	color: white;
+}
+
+.ulmenu li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+  font-size: 20;
+}
+
+.menu {
+	width: 600px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  float: right;
+}
+
+
+.toggle {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+.logo {
+		width: 100px; 
+		padding-top: 15px;
+		margin-bottom: -45px;
+		margin-left: 30px;
+	}
+
+@media (max-width: 850px) {
+	.toggle {
+		display: block;
+	}
+
+  .ulmenu {
+		width: 100%;
+		display: none;
+	}
+
+	.ulmenu li {
+		display: block;
+		text-align: left;
+		width: 300px;
+	}
+
+  .active {
+		display: block;
+	}
+
+  .logo {
+		width: 100px; 
+		padding-top: 10px;
+		margin-bottom: 15px;
+		margin-left: 30px;
+	}
+}
+
